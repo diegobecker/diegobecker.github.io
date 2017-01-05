@@ -28,7 +28,7 @@ DEFAULT_LANG = 'pt'
 # AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = False
-#MAIN_MENU = True
+MAIN_MENU = True
 
 STATIC_PATHS = ['extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
