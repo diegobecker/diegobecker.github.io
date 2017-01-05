@@ -13,6 +13,8 @@ SITELOGO = '//s.gravatar.com/avatar/27e62c171c9f88dbb0d57e534d2e52a4?s=120'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
 
+ROBOTS = 'index, follow'
+
 THEME = '../tema-flex'
 PATH = 'content'
 TIMEZONE = 'America/Sao_Paulo'
@@ -47,6 +49,13 @@ SOCIAL = (('github', 'https://github.com/diegobecker'),
           ('twitter', 'https://twitter.com/_diegobecker_')
           #('rss', '//blog.alexandrevicenzi.com/feeds/all.atom.xml')
           )
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
+COPYRIGHT_YEAR = 2017
+
 DISQUS_SITENAME = 'diegobecker'
 
 DEFAULT_PAGINATION = 10
