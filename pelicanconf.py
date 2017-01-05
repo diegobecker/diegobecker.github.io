@@ -20,14 +20,14 @@ DEFAULT_LANG = 'pt'
 
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+# FEED_ALL_ATOM = 'feeds/all.atom.xml'
+# CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+# TRANSLATION_FEED_ATOM = None
+# AUTHOR_FEED_ATOM = None
+# AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = False
-MAIN_MENU = True
+#MAIN_MENU = True
 
 STATIC_PATHS = ['extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
@@ -40,9 +40,9 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 
 # Social widget
-SOCIAL = (('linkedin', 'https://br.linkedin.com/in/diegoobecker'),
-          ('github', 'https://github.com/diegobecker'),
-          #('google', 'https://google.com/+AlexandreVicenzi'),
+SOCIAL = (('github', 'https://github.com/diegobecker'),
+          ('linkedin', 'https://br.linkedin.com/in/diegoobecker'),
+          ('facebook', 'https://www.facebook.com/diegobecker00'),
           ('twitter', 'https://twitter.com/_diegobecker_')
           #('rss', '//blog.alexandrevicenzi.com/feeds/all.atom.xml')
           )
