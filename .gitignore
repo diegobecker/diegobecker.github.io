@@ -94,7 +94,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
-output
+output/
 *.pid
 
 # End of https://www.gitignore.io/api/python
