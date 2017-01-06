@@ -3,11 +3,11 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Diego Becker'
-#SITEURL = 'http://localhost:8000'
-SITEURL = 'http://diegobecker.net.br'
-SITENAME = "Diego Becker's Blog"
+SITEURL = 'http://localhost:8000'
+#SITEURL = 'http://diegobecker.net.br'
+SITENAME = "Diego Becker - Desenvolvimento Web | Software Livre"
 SITETITLE = AUTHOR
-SITESUBTITLE = 'Sotfware Developer'
+SITESUBTITLE = 'Desenvolvedor Web'
 SITELOGO = '//s.gravatar.com/avatar/27e62c171c9f88dbb0d57e534d2e52a4?s=120'
 
 BROWSER_COLOR = '#333333'
